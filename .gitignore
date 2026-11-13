@@ -1,0 +1,26 @@
+# Secretos: NUNCA subir la API key
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Datos descargados (COCO pesa ~1 GB; el notebook los descarga de nuevo)
+data/
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# OJO: models/*.keras y assets/ SÍ se suben: son entregables del taller

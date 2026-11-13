@@ -1,0 +1,21 @@
+# Versiones alineadas con los requirements de las Unidades 4 y 5 del repositorio del curso
+# Red neuronal y preprocesamiento (Unidad 4)
+tensorflow==2.21.0
+keras==3.15.1
+opencv-python==5.0.0.93
+numpy==2.5.3
+pandas==3.0.5
+matplotlib==3.11.2
+scikit-learn==1.9.1
+
+# Agente (Unidad 5)
+langchain==1.4.1
+langchain-core==1.6.3
+langchain-google-genai==4.4.0
+langgraph==1.2.11
+langgraph-checkpoint==4.2.0
+python-dotenv==1.2.3
+
+# Aplicación y notebooks
+streamlit>=1.32
+ipykernel
